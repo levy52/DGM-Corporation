@@ -162,7 +162,7 @@ h1.company-name {
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 3em;
   left: 1em;
   z-index: 500;
@@ -192,6 +192,7 @@ h1.company-name {
   z-index: 10;
 }
 .nav-mobile--active {
+  position: fixed;
   transform: translateX(0);
 }
 .nav__link {

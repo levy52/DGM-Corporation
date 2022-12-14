@@ -10,6 +10,7 @@ const handleNav = () => {
 	navLink.forEach(item => {
 		item.addEventListener('click', () => {
 			navMobile.classList.remove('nav-mobile--active')
+			navBtn.classList.remove('is-active')
 		})
 	})
 }
